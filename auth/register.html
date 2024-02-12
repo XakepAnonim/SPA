@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/css.css">
+    <script src="./js/register.js"></script>
+</head>
+<body>
+    <div class="wrap">
+        <h1 class="title">Registration</h1>
+        <form action="" class="form" name="registration"
+              onsubmit="registerSubmit(event)">
+            <div class="input-block">
+                <label for="login">NAME</label>
+                <input id="login" type="text" class="input"
+                       placeholder="NAME">
+            </div>
+            <div class="input-block">
+                <label for="email">EMAIL</label>
+                <input id="email" tabindex="1" name="email" type="email"
+                       class="input"
+                       placeholder="EMAIL">
+                <div class="error"></div>
+            </div>
+            <div class="input-block">
+                <label for="pass">PASSWORD</label>
+                <input id="pass" tabindex="1" name="pass" type="password"
+                       class="input"
+                       placeholder="PASSWORD">
+            </div>
+            <div class="input-block">
+                <label for="pass2">PASSWORD2</label>
+                <input id="pass2" tabindex="1" name="pass2" type="password"
+                       class="input"
+                       placeholder="PASSWORD2">
+            </div>
+
+            <div class="input-block">
+                <label for="about">ABOUT ME</label>
+                <textarea name="about" id="about" class="input"
+                          rows="5" style="resize: none;"
+                          placeholder="ABOUT YOURSELF"></textarea>
+            </div>
+
+            <div class="input-block">
+                <label for="town">MY TOWN</label>
+                <select name="town" id="town" class="input">
+                    <option value="Elabuga">Elabuga</option>
+                    <option value="Moscow">Moscow</option>
+                    <option value="Kazan">Kazan</option>
+                </select>
+            </div>
+
+            <div class="input-block2">
+                <input id="agree" checked type="checkbox" class="input"
+                       name="agree">
+                <label for="agree">I AGREE TO THE PROCESSING OF PERSONAL
+                    DATA</label>
+            </div>
+            <button type="submit" class="btn_reg">Register</button>
+        </form>
+    </div>
+</body>
+</html>

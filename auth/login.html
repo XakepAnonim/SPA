@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/css.css">
+    <script src="./js/login.js"></script>
+</head>
+<body>
+    <div class="wrap">
+        <h1 class="title">Login</h1>
+        <form action="" class="form" name="login"
+              onsubmit="loginSubmit(event)">
+            <div class="input-block">
+                <label for="email">EMAIL</label>
+                <input id="email" tabindex="1" name="email" type="email"
+                       class="input"
+                       placeholder="EMAIL">
+                <div class="error"></div>
+            </div>
+            <div class="input-block">
+                <label for="pass">PASSWORD</label>
+                <input id="pass" tabindex="1" name="pass" type="password"
+                       class="input"
+                       placeholder="PASSWORD">
+            </div>
+
+            <button type="submit" class="btn">Login</button>
+        </form>
+    </div>
+</body>
+</html>

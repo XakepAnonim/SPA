@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    max-width: 500px;
+    margin: 200px auto 0;
+    background-color: #8472d5;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    color: #fff;
+}
+
+.form {
+    border: 2px solid #deccb9;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.input-block {
+    margin-bottom: 20px;
+}
+
+.input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    transition: border-color 0.3s;
+    margin-left: auto;
+}
+
+.input:focus {
+    border-color: #d6193f;
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 6px;
+    background-color: #3f0972;
+    color: #f2f2ea;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #5d1b9c;
+}
+
+.btn_reg {
+    padding: 10px 20px;
+    border-radius: 6px;
+    background-color: #3f0972;
+    color: #f2f2ea;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn_reg:hover {
+    background-color: #5d1b9c;
+}
